@@ -1,0 +1,40 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.api-key {
+  padding: 40px 0;
+  
+  label {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+  }
+
+  input {
+    display: block;
+    width: 400px;
+    padding: 10px;
+  }
+}
+
+.wrap {
+  width: 24%;
+  padding: 5px 20px;
+  margin: 0 0.5% 20px;
+  border: 1px solid #eee;
+  border-radius: 7px;
+
+}
+
+div {
+  display: block;
+}
+
+p {
+  word-break: break-word;
+  font-size: 15px;
+}
